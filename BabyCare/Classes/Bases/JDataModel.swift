@@ -21,7 +21,7 @@ protocol DataModelHttpProtocol {
 extension DataModelHttpProtocol {
 
     var fetchLimited: Int? {
-        return 20
+        return 20 
     }
     var method: HTTPMethod {
         return .get
