@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D7EA7267F6108CD01FDF4F /* Pods_BabyCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746B5983FBAA129E56248B72 /* Pods_BabyCare.framework */; };
+		37209A981FD0FA04006C65B6 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37209A971FD0FA04006C65B6 /* CacheManager.swift */; };
+		374DC5B31FECDB42004FE581 /* JHttpTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DC5B21FECDB42004FE581 /* JHttpTableTableViewController.swift */; };
+		374DC5B71FECDB91004FE581 /* JDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DC5B61FECDB91004FE581 /* JDataModel.swift */; };
+		374DC5B91FECE163004FE581 /* JHttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DC5B81FECE163004FE581 /* JHttpManager.swift */; };
+		3769DC951FCE5EE8001D94F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3769DC931FCE5EE8001D94F9 /* Images.xcassets */; };
+		3769DC9A1FCE5F88001D94F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3769DC981FCE5F88001D94F9 /* ViewController.swift */; };
+		3769DC9B1FCE5F88001D94F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3769DC991FCE5F88001D94F9 /* AppDelegate.swift */; };
+		3769DC9F1FCE6088001D94F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3769DC9E1FCE6088001D94F9 /* Constants.swift */; };
+		379FCCB31FE0CD6700EB1EE4 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FCCB21FE0CD6700EB1EE4 /* Serializable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37209A971FD0FA04006C65B6 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		3747C03A1FCD42C80049ADB5 /* BabyCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		374DC5B21FECDB42004FE581 /* JHttpTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHttpTableTableViewController.swift; sourceTree = "<group>"; };
+		374DC5B61FECDB91004FE581 /* JDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDataModel.swift; sourceTree = "<group>"; };
+		374DC5B81FECE163004FE581 /* JHttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHttpManager.swift; sourceTree = "<group>"; };
+		3769DC931FCE5EE8001D94F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3769DC941FCE5EE8001D94F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3769DC981FCE5F88001D94F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3769DC991FCE5F88001D94F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3769DC9E1FCE6088001D94F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		379FCCB21FE0CD6700EB1EE4 /* Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		37B9BEB51FDA4069008B6F2B /* BabyCare-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BabyCare-Bridging-Header.h"; sourceTree = "<group>"; };
+		746B5983FBAA129E56248B72 /* Pods_BabyCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A072899E048682F912A6D684 /* Pods-BabyCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare.debug.xcconfig"; sourceTree = "<group>"; };
+		DA52FFEFB0E5645174EBF0D4 /* Pods-BabyCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3747C0371FCD42C80049ADB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D7EA7267F6108CD01FDF4F /* Pods_BabyCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338D8596F1815220876D46E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A072899E048682F912A6D684 /* Pods-BabyCare.debug.xcconfig */,
+				DA52FFEFB0E5645174EBF0D4 /* Pods-BabyCare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		370088E51FD0F5B600073912 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		37209A961FD0F9F0006C65B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				37209A971FD0FA04006C65B6 /* CacheManager.swift */,
+				379FCCB21FE0CD6700EB1EE4 /* Serializable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3747C0311FCD42C80049ADB5 = {
+			isa = PBXGroup;
+			children = (
+				3747C03C1FCD42C80049ADB5 /* BabyCare */,
+				3747C03B1FCD42C80049ADB5 /* Products */,
+				338D8596F1815220876D46E2 /* Pods */,
+				F9A55AD3B53D045777CE7C4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3747C03B1FCD42C80049ADB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3747C03A1FCD42C80049ADB5 /* BabyCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3747C03C1FCD42C80049ADB5 /* BabyCare */ = {
+			isa = PBXGroup;
+			children = (
+				3769DC991FCE5F88001D94F9 /* AppDelegate.swift */,
+				3769DC971FCE5F88001D94F9 /* Classes */,
+				3769DC921FCE5EE8001D94F9 /* Resources */,
+			);
+			path = BabyCare;
+			sourceTree = "<group>";
+		};
+		374DC5AF1FECB8B7004FE581 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				374DC5B21FECDB42004FE581 /* JHttpTableTableViewController.swift */,
+				374DC5B61FECDB91004FE581 /* JDataModel.swift */,
+				374DC5B81FECE163004FE581 /* JHttpManager.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		3769DC921FCE5EE8001D94F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37B9BEB51FDA4069008B6F2B /* BabyCare-Bridging-Header.h */,
+				3769DC931FCE5EE8001D94F9 /* Images.xcassets */,
+				3769DC941FCE5EE8001D94F9 /* Info.plist */,
+				3769DC9E1FCE6088001D94F9 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3769DC971FCE5F88001D94F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				370088E51FD0F5B600073912 /* Vendor */,
+				374DC5AF1FECB8B7004FE581 /* Bases */,
+				37209A961FD0F9F0006C65B6 /* Utils */,
+				3769DC981FCE5F88001D94F9 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F9A55AD3B53D045777CE7C4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				746B5983FBAA129E56248B72 /* Pods_BabyCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3747C0391FCD42C80049ADB5 /* BabyCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3747C04C1FCD42C80049ADB5 /* Build configuration list for PBXNativeTarget "BabyCare" */;
+			buildPhases = (
+				3F873CA2F08E81A37A0133E3 /* [CP] Check Pods Manifest.lock */,
+				3747C0361FCD42C80049ADB5 /* Sources */,
+				3747C0371FCD42C80049ADB5 /* Frameworks */,
+				3747C0381FCD42C80049ADB5 /* Resources */,
+				0489E15AB09E4ACFF08DD82C /* [CP] Embed Pods Frameworks */,
+				12839221AD8C5168FBB6A94A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyCare;
+			productName = BabyCare;
+			productReference = 3747C03A1FCD42C80049ADB5 /* BabyCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3747C0321FCD42C80049ADB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = JiangLiang;
+				TargetAttributes = {
+					3747C0391FCD42C80049ADB5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3747C0351FCD42C80049ADB5 /* Build configuration list for PBXProject "BabyCare" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3747C0311FCD42C80049ADB5;
+			productRefGroup = 3747C03B1FCD42C80049ADB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3747C0391FCD42C80049ADB5 /* BabyCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3747C0381FCD42C80049ADB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3769DC951FCE5EE8001D94F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0489E15AB09E4ACFF08DD82C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12839221AD8C5168FBB6A94A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyCare/Pods-BabyCare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F873CA2F08E81A37A0133E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3747C0361FCD42C80049ADB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37209A981FD0FA04006C65B6 /* CacheManager.swift in Sources */,
+				379FCCB31FE0CD6700EB1EE4 /* Serializable.swift in Sources */,
+				374DC5B91FECE163004FE581 /* JHttpManager.swift in Sources */,
+				3769DC9B1FCE5F88001D94F9 /* AppDelegate.swift in Sources */,
+				374DC5B71FECDB91004FE581 /* JDataModel.swift in Sources */,
+				3769DC9A1FCE5F88001D94F9 /* ViewController.swift in Sources */,
+				3769DC9F1FCE6088001D94F9 /* Constants.swift in Sources */,
+				374DC5B31FECDB42004FE581 /* JHttpTableTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3747C04A1FCD42C80049ADB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3747C04B1FCD42C80049ADB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3747C04D1FCD42C80049ADB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A072899E048682F912A6D684 /* Pods-BabyCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AB8CM5S774;
+				INFOPLIST_FILE = "$(SRCROOT)/BabyCare/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangliang.babycare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c50f8cdf-427a-452b-b0f6-621c62066948";
+				PROVISIONING_PROFILE_SPECIFIER = Gogenius_Wildcard;
+				SWIFT_OBJC_BRIDGING_HEADER = "BabyCare/Resources/BabyCare-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3747C04E1FCD42C80049ADB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA52FFEFB0E5645174EBF0D4 /* Pods-BabyCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AB8CM5S774;
+				INFOPLIST_FILE = "$(SRCROOT)/BabyCare/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangliang.babycare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c50f8cdf-427a-452b-b0f6-621c62066948";
+				PROVISIONING_PROFILE_SPECIFIER = Gogenius_Wildcard;
+				SWIFT_OBJC_BRIDGING_HEADER = "BabyCare/Resources/BabyCare-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3747C0351FCD42C80049ADB5 /* Build configuration list for PBXProject "BabyCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3747C04A1FCD42C80049ADB5 /* Debug */,
+				3747C04B1FCD42C80049ADB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3747C04C1FCD42C80049ADB5 /* Build configuration list for PBXNativeTarget "BabyCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3747C04D1FCD42C80049ADB5 /* Debug */,
+				3747C04E1FCD42C80049ADB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3747C0321FCD42C80049ADB5 /* Project object */;
+}
